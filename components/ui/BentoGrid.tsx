@@ -23,7 +23,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1  lg:grid-cols-3  gap-4 lg:gap-8 mx-auto",
+        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  gap-4 lg:gap-8 mx-auto",
         className
       )}
     >
@@ -61,7 +61,7 @@ export const BentoGridItem = ({
           )}
         >
           <div
-            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
+            className={`font-sans text-lg lg:text-3xl max-w-48 md:max-w-96 font-bold z-10`}
           >
             {card.title}
           </div>

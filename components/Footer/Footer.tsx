@@ -20,7 +20,8 @@ export default function Footer() {
       <div className={styles.body}>
         <div className={styles.title}>
           <h2 className=" text-[45px] md:text-6xl lg:text-7xl">
-            Let&apos;s work <br/>together
+            Let&apos;s work <br />
+            together
           </h2>
           <motion.div style={{ x }} className={styles.buttonContainer}>
             <Rounded backgroundColor={"#334BD3"} className={styles.button}>
@@ -41,7 +42,7 @@ export default function Footer() {
             />
           </motion.svg>
         </div>
-        <div className={styles.nav}>
+        <div className={`${styles.nav} flex max-md:flex-col-reverse  gap-2`}>
           <Rounded>
             <a href="mailto:taiwoonileowo17@gmail.com">Get in touch</a>
           </Rounded>
