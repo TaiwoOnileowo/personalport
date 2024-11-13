@@ -179,7 +179,7 @@ export const products = [
 
   {
     title: "Lyncs",
-    link: "https://www.paypipsbot.com/", //TODO: change link
+    link: "https://lyncs.vercel.app/",
     thumbnail: lyncs,
   },
 
