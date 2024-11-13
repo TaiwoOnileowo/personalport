@@ -1,11 +1,8 @@
-import paypips from "@/assets/paypips.png";
-
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Tech Stack", link: "#stack" },
+  { name: "Stack", link: "#stack" },
   { name: "Projects", link: "#projects" },
-  { name: "Experience", link: "#experience" },
-  { name: "Showcase", link: "#showcase" },
+  // { name: "Experience", link: "#experience" },
+  // { name: "Showcase", link: "#showcase" },
   // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -96,7 +93,7 @@ export const projects = [
     des: "A 3D merch picker that allows users to view and come up with a merch in a 3D environment.",
     img: "/merchpicker.png",
     iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/framer.svg"],
-    link: "/ui.apple.com",
+    link: "https://3dmerch.netlify.app/",
   },
 ];
 

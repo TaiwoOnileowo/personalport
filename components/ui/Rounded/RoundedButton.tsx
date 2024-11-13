@@ -14,6 +14,7 @@ export default function Rounded({
   backgroundColor?: string;
   attributes?: string;
   className?: string;
+  onClick?: () => void;
 }) {
   const circle = useRef(null);
   let timeline = useRef<gsap.core.Timeline | null>(null);
