@@ -2,8 +2,11 @@ import paypips from "@/assets/paypips.png";
 
 export const navItems = [
   { name: "About", link: "#about" },
+  { name: "Tech Stack", link: "#stack" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
+  { name: "Showcase", link: "#showcase" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 export const techStack = [

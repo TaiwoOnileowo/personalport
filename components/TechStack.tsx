@@ -3,7 +3,7 @@ import React from "react";
 import { BentoGridItem, BentoGrid } from "./ui/BentoGrid";
 const TechStack = () => {
   return (
-    <div className="py-20" id="tech-stack">
+    <div className="py-20" id="stack">
       <h1 className="heading text-white z-50">
         My <span className="text-purple">Tech Stack</span>
       </h1>

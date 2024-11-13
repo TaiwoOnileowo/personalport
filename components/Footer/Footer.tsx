@@ -16,7 +16,7 @@ export default function Footer() {
   // const y = useTransform(scrollYProgress, [0, 1], [-500, 0]);
   const rotate = useTransform(scrollYProgress, [0, 1], [120, 90]);
   return (
-    <motion.div ref={container} className={styles.contact}>
+    <motion.div ref={container} className={styles.contact} id="contact">
       <div className={styles.body}>
         <div className={styles.title}>
           <h2 className=" text-[45px] md:text-6xl lg:text-7xl">
