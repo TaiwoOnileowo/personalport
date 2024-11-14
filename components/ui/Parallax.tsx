@@ -141,6 +141,7 @@ export const ProductCard = ({
       className="group/product h-96 w-[40rem] relative flex-shrink-0"
     >
       <Link
+        target="_blank"
         href={product.link}
         className="block group-hover/product:shadow-2xl "
       >
