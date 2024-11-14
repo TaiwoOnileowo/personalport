@@ -8,8 +8,8 @@ const TechStack = () => {
         My <span className="text-purple">Tech Stack</span>
       </h1>
       <BentoGrid className="w-full mt-12">
-        {techStack.map((card) => (
-          <BentoGridItem key={card.id} card={card} />
+        {techStack.map((card, idx) => (
+          <BentoGridItem key={card.id} card={card} index={idx} />
         ))}
       </BentoGrid>
     </div>

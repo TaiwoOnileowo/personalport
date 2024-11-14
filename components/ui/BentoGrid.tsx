@@ -35,9 +35,11 @@ export const BentoGrid = ({
 export const BentoGridItem = ({
   className,
   card,
+  index,
 }: {
   className?: string;
   card: (typeof techStack)[0];
+  index: number;
 }) => {
   const leftLists = card.stacks.slice(0, 3);
   const rightLists = card.stacks.slice(3, 6);
@@ -77,8 +79,40 @@ export const BentoGridItem = ({
                   {item}
                 </span>
               ))}
+              {index === 1 && (
+                <span
+                  className="  lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                >
+                  Shadcn
+                </span>
+              )}
+              {index === 2 && (
+                <span
+                  className="  lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                >
+                  Axios
+                </span>
+              )}
             </div>
             <div className="flex flex-col gap-3 mt-6  md:gap-3 lg:gap-6">
+              {index === 1 && (
+                <span
+                  className="  lg:px-3 py-2 px-3  text-xs lg:text-base opacity-50 
+                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                >
+                  Tailwind CSS
+                </span>
+              )}
+              {index === 2 && (
+                <span
+                  className="  lg:px-3 py-2 px-3  text-xs lg:text-base opacity-50 
+                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                >
+                  Prisma
+                </span>
+              )}
               {rightLists.map((item, i) => (
                 <span
                   key={i}

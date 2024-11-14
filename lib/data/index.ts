@@ -121,7 +121,7 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Enactus Tecnical Director",
+    title: "Enactus Technical Director",
     desc: "I lead the media and digital efforts that bring our team’s impactful projects to life. In this role, I’m responsible for documenting our initiatives through visuals and storytelling, ensuring that our mission to enable human progress through entrepreneurial action reaches a broad audience",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
@@ -208,33 +208,33 @@ export const products = [
 export const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "This guy is literally a beast. He's a genius, his works are always damn good, he is very innovative and also has a good work ethic.",
+    name: "Bolu Dada",
+    title: "CEO/Founder SyncGram",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+      "This guy is good, I love his works. We still have a lot of work to do together.",
+    name: "Oluwaseun Suleman",
+    title: "Co-Founder/Frontend Developer at Lyncs",
   },
   {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+    quote: "He is a very good developer, I love working with him.",
+    name: "Akinyera Damilare",
+    title: "Project Manager at Qhub",
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "He is one of the best Frontend Developers I have ever worked with. He is very good at what he does.",
+    name: "Marvellous",
+    title: "Backend Developer",
   },
+  // {
+  //   quote:
+  //     "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
+  //   name: "Herman Melville",
+  //   title: "Moby-Dick",
+  // },
 ];
 
 export const companies = [
