@@ -5,6 +5,10 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 const Clients = () => {
+  // Bolu
+  // Qhub
+  // Marvellous
+  // Seun -Lyncs
   return (
     <div className="py-20" id="testimonials">
       {/* <h1 className="heading">

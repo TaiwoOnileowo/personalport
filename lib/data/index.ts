@@ -100,7 +100,7 @@ export const projects = [
 export const workExperience = [
   {
     id: 2,
-    title: "Full-Stack Developer at Paypips ",
+    title: "Full-Stack Developer at SyncGram ",
     desc: "Worked at SyncGram, a startup that is focused on helping telegram community owners to manage their telegram communities. I developed and managed the website, dashboard, and admin dashboard independently.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
