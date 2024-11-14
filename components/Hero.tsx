@@ -35,9 +35,9 @@ const Hero = () => {
             {" "}
             Hi, I&apos;m Taiwo, the Frontend Engineer for your next project
           </p>
-          <a href="#projects">
+          <a href="#stack">
             <MagicButton
-              title="View my projects"
+              title="Learn More"
               icon={<FaLocationArrow />}
               position="right"
             />
