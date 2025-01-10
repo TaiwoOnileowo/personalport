@@ -258,13 +258,13 @@ export const testimonials = [
 
 export const companies = [
   {
-    id: 2,
-    name: "QHub",
-    img: "/qlogo.svg",
-    link: "https://www.qhub.africa/",
+    id: 1,
+    name: "Printeaze",
+    img: "/printeaze.svg",
+    link: "https://printeaze.com/",
   },
   {
-    id: 1,
+    id: 2,
     name: "SyncGram",
     img: "/syngramlogo.svg",
     link: "https://sync-gram.com",
