@@ -44,8 +44,8 @@ export const techStack = [
   },
   {
     id: 5,
-    title: "Backend-as-a-Service (BaaS)",
-    stacks: ["Firebase", "Supabase"],
+    title: "Backend",
+    stacks: ["Nodejs", "Firebase", "Supabase"],
   },
   {
     id: 6,
@@ -57,6 +57,14 @@ export const techStack = [
 export const projects = [
   {
     id: 1,
+    title: "Printeaze",
+    des: "Printeaze is a platform that aims to help simplify printing for campus students. Students upload their files from anywhere, customize settings, get a code, print.",
+    img: "/printeaze.png",
+    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://printeaze.com/",
+  },
+  {
+    id: 2,
     title: "SyncGram Website",
     des: "Designed and Developed the website for SyncGram.",
     img: "/syncgram.png",
@@ -64,7 +72,7 @@ export const projects = [
     link: "https://sync-gram.com",
   },
   {
-    id: 2,
+    id: 3,
     title: "Link Vault Chrome Extension",
     des: "A Chrome Extension that allows  users to save, organize, and manage their links efficiently",
     img: "/linkvault1.png",
@@ -80,14 +88,6 @@ export const projects = [
     ],
   },
   {
-    id: 3,
-    title: "Freeland MVP",
-    des: "FreeLand aims to be the ultimate hub for free content online, starting with stock images, books, and movies.",
-    img: "/freeland.png",
-    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg"],
-    // link: "/ui.aiimg.com",
-  },
-  {
     id: 4,
     title: "3D Merch Picker",
     des: "A 3D merch picker that allows users to view and come up with a merch in a 3D environment.",
@@ -99,23 +99,30 @@ export const projects = [
 
 export const workExperience = [
   {
+    id: 1,
+    title: "Founder, Printeaze",
+    desc: "Printeaze is a revolutionary platform that aims to help simplify printing for campus students. Students upload their files from anywhere, customize settings, get a code, print.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
     id: 2,
     title: "Full-Stack Developer at SyncGram ",
     desc: "Worked at SyncGram, a startup that is focused on helping telegram community owners to manage their telegram communities. I developed and managed the website, dashboard, and admin dashboard independently.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
-  {
-    id: 1,
-    title: "Frontend Developer at Qhub",
-    desc: "Worked as the Frontend Developer for the QHUB LMS project which is an LMS platform for organizations. Its customizable for all kinds of organizations, so they don’t need to build their own LMS. I Worked alongside other developers and professionals",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
+  // {
+  //   id: 1,
+  //   title: "Frontend Developer at Qhub",
+  //   desc: "Worked as the Frontend Developer for the QHUB LMS project which is an LMS platform for organizations. Its customizable for all kinds of organizations, so they don’t need to build their own LMS. I Worked alongside other developers and professionals",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp1.svg",
+  // },
   {
     id: 3,
-    title: "Lead Developer at Sparksites Studios",
-    desc: "CEO and developer at Sparksites Studios, a web development agency that helps businesses to create a strong online presence.",
+    title: "Founder, Sparksites Studios",
+    desc: "Sparksites Studios is a web development agency that helps businesses to create a strong online presence.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -154,6 +161,7 @@ import lyncs from "@/assets/lyncs.png";
 import qhub from "@/assets/qhub.png";
 import unesco from "@/assets/unesco.png";
 import syncgramdashadmin from "@/assets/syncgramdashadmin.png";
+import printeaze from "@/assets/printeaze.png";
 export const products = [
   {
     title: "SyncGram Admin Dashboard",
@@ -162,15 +170,16 @@ export const products = [
   },
 
   {
-    title: "SyncGram",
-    link: "https://sync-gram.com",
-    thumbnail: syncgram,
+    title: "Printeaze",
+    link: "https://printeaze.com/",
+    thumbnail: printeaze,
   },
   {
-    title: "SyncGram Dashboard",
-    link: "https://sync-gram.com",
-    thumbnail: syncgramdash,
+    title: "Unesco Youth Club CU",
+    link: "https://unesco-youth-club.netlify.app",
+    thumbnail: unesco,
   },
+
   {
     title: "Intask",
     link: "https://intaskweb.netlify.app/",
@@ -182,12 +191,16 @@ export const products = [
     link: "https://lyncs.vercel.app/",
     thumbnail: lyncs,
   },
-
   {
-    title: "Unesco Youth Club CU",
-    link: "https://unesco-youth-club.netlify.app",
-    thumbnail: unesco,
+    title: "SyncGram",
+    link: "https://sync-gram.com",
+    thumbnail: syncgram,
   },
+  // {
+  //   title: "Unesco Youth Club CU",
+  //   link: "https://unesco-youth-club.netlify.app",
+  //   thumbnail: unesco,
+  // },
   {
     title: "Space Tourism Website",
     link: "https://h00bankweb.netlify.app/",
@@ -199,9 +212,9 @@ export const products = [
     thumbnail: learnact,
   },
   {
-    title: "Qhub",
-    link: "https://qhublms.vercel.app/dashboard",
-    thumbnail: qhub,
+    title: "SyncGram Dashboard",
+    link: "https://sync-gram.com",
+    thumbnail: syncgramdash,
   },
 ];
 
@@ -228,6 +241,12 @@ export const testimonials = [
       "He is one of the best Frontend Developers I have ever worked with. He is very good at what he does.",
     name: "Marvellous",
     title: "Backend Developer",
+  },
+  {
+    quote:
+      "This guy's ui is always dope asf. He is just excelletn in what he does",
+    name: "Mosky",
+    title: "Entrepreneur",
   },
   // {
   //   quote:
