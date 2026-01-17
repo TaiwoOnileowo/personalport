@@ -1,9 +1,8 @@
-import React from "react";
+import { FaLocationArrow } from "react-icons/fa";
+import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa";
-import { useTheme } from "next-themes";
+import { BiDownload } from "react-icons/bi";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
@@ -24,24 +23,33 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89w] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center ">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            I love building stuff to solve problems
+            ONILEOWO TAIWO (DAX)
           </h2>
 
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Building Quality Solutions"
+            words="Technical Founder & Full-Stack Developer"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             {" "}
-            Hi, I&apos;m Taiwo, the FullStack Developer for your next project
+            I build products that make money.
           </p>
-          <a href="#stack">
-            <MagicButton
-              title="Learn More"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex items-center gap-4">
+            <a href="/resume.pdf" download="Onileowo_Taiwo_Resume.pdf">
+              <MagicButton
+                title="Download Resume"
+                icon={<BiDownload />}
+                position="left"
+              />
+            </a>
+            <a href="mailto:taiwoonileowo17@gmail.com">
+              <MagicButton
+                title="Let's Talk"
+                icon={<FaLocationArrow />}
+                position="left"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>

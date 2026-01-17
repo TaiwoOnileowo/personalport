@@ -46,9 +46,9 @@ export default function Footer() {
           <Rounded>
             <a href="mailto:taiwoonileowo17@gmail.com">Get in touch</a>
           </Rounded>
-          <Rounded>
+          {/* <Rounded>
             <p>+234 9138 2810 54</p>
-          </Rounded>
+          </Rounded> */}
         </div>
         <div className={styles.info}>
           {/* <div>
@@ -62,7 +62,7 @@ export default function Footer() {
           </div> */}
           <div>
             <span>
-              <h3>socials</h3>
+              <h3>Socials</h3>
               <Magnetic>
                 <a href="https://github.com/TaiwoOnileowo" target="_blank">
                   Github
@@ -82,11 +82,11 @@ export default function Footer() {
                 Email
               </a>
             </Magnetic>
-            <Magnetic>
+            {/* <Magnetic>
               <a href=" https://wa.me/2349138281054" target="_blank">
                 Whatsapp
               </a>
-            </Magnetic>
+            </Magnetic> */}
           </div>
         </div>
       </div>

@@ -12,9 +12,9 @@ export default function index() {
       <a href="mailto:taiwoonileowo17@gmail.com" target="_blank">
         Email
       </a>
-      <a href=" https://wa.me/2349138281054" target="_blank">
+      {/* <a href=" https://wa.me/2349138281054" target="_blank">
         Whatsapp
-      </a>
+      </a> */}
     </div>
   );
 }

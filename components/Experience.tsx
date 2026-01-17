@@ -1,14 +1,18 @@
 import { workExperience } from "@/lib/data";
-import React from "react";
 import { Button } from "./ui/MovingBorder";
-import Image from "next/image";
 const Experience = () => {
   return (
     <div className="py-20" id="experience">
       <h1 className="heading">
-        My <span className="text-purple">work experience</span>
+        What I've learned from{" "}
+        <span className="text-purple">building real products</span>
       </h1>
-      <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
+      <p className="text-center text-white-200 mt-4 text-base max-w-2xl mx-auto">
+        Each product taught me something different, from scaling revenue to
+        shipping fast to understanding users deeply
+      </p>
+
+      <div className="w-full mt-12 grid lg:grid-cols-2 grid-cols-1 gap-6">
         {workExperience.map((card) => (
           <Button
             key={card.id}
@@ -16,20 +20,42 @@ const Experience = () => {
             duration={Math.floor(Math.random() * 10000) + 10000}
             className="flex-1 text-white dark:border-slate-800 border-neutral-200"
           >
-            <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 mg:p-5 lg:p-10 gap-2">
-              <img
-                src={card.thumbnail}
-                alt={card.thumbnail}
-                className="lg:w-32 md:w-20 w-16"
-              />
-              <div className="lg:ms-5">
-                <h1 className="text-start text-xl mg:text-2xl font-bold">
-                  {card.title}
-                </h1>
-                <p className="text-start text-white-100 mt-3 font-semibold">
-                  {" "}
-                  {card.desc}
-                </p>
+            <div className="flex flex-col p-6 md:p-8 gap-4 h-full">
+              {/* Header */}
+              <div className="flex items-start gap-4">
+                {card.thumbnail && (
+                  <img
+                    src={card.thumbnail}
+                    alt={`${card.company} logo`}
+                    className="w-16 h-16 md:w-20 md:h-20 object-contain flex-shrink-0"
+                  />
+                )}
+                <div className="flex-1">
+                  <h2 className="text-xl md:text-2xl font-bold text-white">
+                    {card.title}
+                  </h2>
+                  <p className="text-purple font-semibold text-base md:text-lg mt-1">
+                    {card.company}
+                  </p>
+                  <p className="text-white-200 text-sm mt-1">{card.period}</p>
+                </div>
+              </div>
+
+              {/* Description */}
+              <p className="text-white-100 text-sm md:text-base leading-relaxed">
+                {card.desc}
+              </p>
+
+              {/* Highlights */}
+              <div className="flex flex-wrap gap-2 mt-auto">
+                {card.highlights?.map((highlight, index) => (
+                  <span
+                    key={index}
+                    className="px-3 py-1 text-xs font-medium bg-black-200 border border-purple/30 rounded-full text-purple"
+                  >
+                    {highlight}
+                  </span>
+                ))}
               </div>
             </div>
           </Button>

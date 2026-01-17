@@ -5,7 +5,7 @@ const TechStack = () => {
   return (
     <div className="py-20" id="stack">
       <h1 className="heading text-white z-50">
-        My <span className="text-purple">Tech Stack</span>
+        Technical <span className="text-purple">Skills</span>
       </h1>
       <BentoGrid className="w-full mt-12">
         {techStack.map((card, idx) => (

@@ -1,5 +1,5 @@
 export const navItems = [
-  { name: "Stack", link: "#stack" },
+  { name: "Skills", link: "#stack" },
   { name: "Projects", link: "#projects" },
   // { name: "Experience", link: "#experience" },
   // { name: "Showcase", link: "#showcase" },
@@ -10,128 +10,152 @@ export const techStack = [
   {
     id: 1,
     title: "Frontend",
-    stacks: ["React", "Next.js", "Typescript", "Javascript"],
-  },
-  {
-    id: 2,
-    title: "Styling",
     stacks: [
-      "TailwindCSS",
-      "CSS",
-      "SASS",
-      "Styled Components",
+      "React",
+      "Next.js",
+      "Typescript",
+      "Tailwind CSS",
       "Framer Motion",
-      "Shadcn",
+      "Responsive Design",
     ],
   },
   {
+    id: 2,
+    title: "Mobile",
+    stacks: ["React Native", "Expo", "Mobile-first UX"],
+  },
+  {
     id: 3,
-    title: "Utilities",
+    title: "Backend",
     stacks: [
-      "Zustand",
-      "React Query",
-
-      "React Hook Form",
-      "Zod",
-      "Clerk",
-      "Next Auth",
+      "Node.js",
+      "PostgreSQL",
+      "Firebase",
+      "RESTful APIs",
+      "MongoDB",
+      "Redis",
     ],
   },
   {
     id: 4,
-    title: "Databases",
-    stacks: ["PostgreSQL", "MongoDB", "Redis"],
+    title: "Tools",
+    stacks: [
+      "Git",
+      "Vercel",
+      "Airtable",
+      "Telegram Bot API",
+      "Paystack",
+      "Flutterwave",
+    ],
   },
   {
     id: 5,
-    title: "Backend",
-    stacks: ["Nodejs", "Firebase", "Supabase"],
-  },
-  {
-    id: 6,
-    title: "Content Management Systems (CMS): ",
-    stacks: ["WordPress", "Sanity"],
+    title: "Business Skills",
+    stacks: [
+      "Product strategy",
+      "Growth optimization",
+      "Payment infrastructure",
+      "Marketplace design",
+      "Zero-to-one execution",
+    ],
   },
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "Printeaze",
-    des: "Printeaze is a platform that aims to help simplify printing for campus students. Students upload their files from anywhere, customize settings, get a code, print.",
-    img: "/printeaze.png",
-    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
-    link: "https://printeaze.com/",
+    title: "SyncGram",
+    des: "Telegram subscription management SaaS scaled to ₦10M monthly profit with 80 clients including Nigeria's top 3 forex traders. Processed ₦250M+ in payments.",
+    img: "/syncgram.png",
+    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/node.svg"],
+    link: "https://sync-gram.com",
+    metrics: "₦10M Monthly | 80 Clients",
   },
   {
     id: 2,
-    title: "SyncGram Website",
-    des: "Designed and Developed the website for SyncGram.",
-    img: "/syncgram.png",
-    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
-    link: "https://sync-gram.com",
+    title: "Printeaze",
+    des: "Campus printing platform serving 2,500 users with ₦120K MRR. Students upload files, customize settings, get a code, and print at any vendor. Reduced queues by 70%.",
+    img: "/printeaze.png",
+    iconLists: [
+      "/next.svg",
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/telegram.svg",
+    ],
+    link: "https://printeaze.com/",
+    metrics: "2,500 Users | ₦120K MRR",
   },
   {
     id: 3,
-    title: "Link Vault Chrome Extension",
-    des: "A Chrome Extension that allows  users to save, organize, and manage their links efficiently",
-    img: "/linkvault1.png",
-    iconLists: [
-      "/re.svg",
-      "/next.svg",
-      "/chrome.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/mongo.svg",
-      // "/stream.svg",
-      // "/c.svg",
-    ],
+    title: "Shopsical",
+    des: "Social commerce mobile app built with React Native. Shipped from concept to 300 users in 2 weeks. Connects 30 vendors with 200+ products for Gen Z shoppers.",
+    img: "/shopsical.png",
+
+    link: "https://shopsical.com",
+    metrics: "300 Users in 2 Weeks",
   },
   {
     id: 4,
-    title: "3D Merch Picker",
-    des: "A 3D merch picker that allows users to view and come up with a merch in a 3D environment.",
-    img: "/merchpicker.png",
-    iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/framer.svg"],
-    link: "https://3dmerch.netlify.app/",
+    title: "Prime Noodles",
+    des: "Campus food delivery business generating ₦1M annually with 500 customers. Telegram bot handles ordering, customization, payments, and delivery tracking.",
+    img: "/primenoodles.jpg",
+    link: "https://t.me/prime_noodles_bot",
+    metrics: "₦1M Revenue | 500 Customers",
+  },
+  {
+    id: 5,
+    title: "CU Work Study Portal",
+    des: "Official work study management system serving 2,000+ students annually. Automated workflow from application to payment tracking. Reduced admin workload by 90%.",
+    img: "/workstudy.png",
+    link: "https://cuworkstudy.vercel.app/", // internal tool
+    metrics: "2,000+ Students Annually",
+  },
+  {
+    id: 6,
+    title: "Graded AI",
+    des: "AI-powered grading platform with custom rubrics and multi-role dashboards. Helped university client achieve top marks in final year defense. Paid contract project.",
+    img: "/graded.png",
+    link: "https://github.com/TaiwoOnileowo/graded",
+    metrics: "AI-Powered Assessment",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Founder, Printeaze",
-    desc: "Printeaze is a revolutionary platform that aims to help simplify printing for campus students. Students upload their files from anywhere, customize settings, get a code, print.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    title: "Full-Stack Developer",
+    company: "SyncGram",
+    period: "June 2024 – June 2025",
+    desc: "Scaled Telegram SaaS to ₦10M monthly profit with 80 clients including Nigeria's top 3 forex traders. Processed ₦250M+ in payments.",
+    highlights: ["₦10M Monthly Profit", "80 Clients", "₦250M Processed"],
+    thumbnail: "/syngramlogo.svg",
   },
   {
     id: 2,
-    title: "Full-Stack Developer at SyncGram ",
-    desc: "Worked at SyncGram, a startup that is focused on helping telegram community owners to manage their telegram communities. I developed and managed the website, dashboard, and admin dashboard independently.",
-    className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    title: "Founder & Technical Lead",
+    company: "Prime Noodles",
+    period: "Feb 2025 – Present",
+    desc: "Founded campus food delivery business generating ₦1M annually with 500 customers. Built custom Telegram bot handling end-to-end ordering and payments.",
+    highlights: ["₦1M Revenue", "500 Customers", "Campus-Wide Expansion"],
   },
-  // {
-  //   id: 1,
-  //   title: "Frontend Developer at Qhub",
-  //   desc: "Worked as the Frontend Developer for the QHUB LMS project which is an LMS platform for organizations. Its customizable for all kinds of organizations, so they don’t need to build their own LMS. I Worked alongside other developers and professionals",
-  //   className: "md:col-span-2",
-  //   thumbnail: "/exp1.svg",
-  // },
   {
     id: 3,
-    title: "Founder, Sparksites Studios",
-    desc: "Sparksites Studios is a web development agency that helps businesses to create a strong online presence.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    title: "Technical Product Builder",
+    company: "Printeaze",
+    period: "June 2025 – Dec 2025",
+    desc: "Launched campus printing platform from zero to 2,500 users and ₦120K MRR in 6 months. Reduced printing queues by 70% across 12 vendor partnerships.",
+    highlights: ["2,500 Users", "₦120K MRR", "70% Queue Reduction"],
+    thumbnail: "/printeaze.svg",
   },
   {
     id: 4,
-    title: "Enactus Technical Director",
-    desc: "I lead the media and digital efforts that bring our team’s impactful projects to life. In this role, I’m responsible for documenting our initiatives through visuals and storytelling, ensuring that our mission to enable human progress through entrepreneurial action reaches a broad audience",
-    className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
+    title: "Full-Stack Mobile Developer",
+    company: "Shopsical",
+    period: "Dec 2025 – Present",
+    desc: "Shipped social commerce mobile app from concept to 300 users in 2 weeks. Built marketplace connecting 30 vendors with 200+ products.",
+    highlights: ["300 Users in 2 Weeks", "30 Vendors", "React Native"],
+    thumbnail: "/shopsicalword.png",
   },
 ];
 
@@ -162,7 +186,20 @@ import qhub from "@/assets/qhub.png";
 import unesco from "@/assets/unesco.png";
 import syncgramdashadmin from "@/assets/syncgramdashadmin.png";
 import printeaze from "@/assets/printeaze.png";
+import shopsical from "@/assets/shopsical.png";
+import workstudy from "@/assets/workstudy.png";
 export const products = [
+  {
+    title: "Cu Work Study Portal",
+    link: "https://cuworkstudy.vercel.app/",
+    thumbnail: workstudy,
+  },
+  {
+    title: "SyncGram",
+    link: "https://sync-gram.com",
+    thumbnail: syncgram,
+  },
+
   {
     title: "SyncGram Admin Dashboard",
     link: "https://sync-gram.com",
@@ -170,51 +207,20 @@ export const products = [
   },
 
   {
+    title: "Shopsical",
+    link: "https://shopsical.com",
+    thumbnail: shopsical,
+  },
+  {
+    title: "SyncGram Client Dashboard",
+    link: "https://sync-gram.com",
+    thumbnail: syncgramdash,
+  },
+
+  {
     title: "Printeaze",
     link: "https://printeaze.com/",
     thumbnail: printeaze,
-  },
-  {
-    title: "Unesco Youth Club CU",
-    link: "https://unesco-youth-club.netlify.app",
-    thumbnail: unesco,
-  },
-
-  {
-    title: "Intask",
-    link: "https://intaskweb.netlify.app/",
-    thumbnail: intask,
-  },
-
-  {
-    title: "Lyncs",
-    link: "https://lyncs.vercel.app/",
-    thumbnail: lyncs,
-  },
-  {
-    title: "SyncGram",
-    link: "https://sync-gram.com",
-    thumbnail: syncgram,
-  },
-  // {
-  //   title: "Unesco Youth Club CU",
-  //   link: "https://unesco-youth-club.netlify.app",
-  //   thumbnail: unesco,
-  // },
-  {
-    title: "Space Tourism Website",
-    link: "https://h00bankweb.netlify.app/",
-    thumbnail: space,
-  },
-  {
-    title: "Learnact",
-    link: "https://thelearnact.com",
-    thumbnail: learnact,
-  },
-  {
-    title: "SyncGram Dashboard",
-    link: "https://sync-gram.com",
-    thumbnail: syncgramdash,
   },
 ];
 
@@ -244,7 +250,7 @@ export const testimonials = [
   },
   {
     quote:
-      "This guy's ui is always dope asf. He is just excelletn in what he does",
+      "This guy's ui is always very awesome. He is just excellent in what he does",
     name: "Mosky",
     title: "Entrepreneur",
   },

@@ -59,7 +59,7 @@ export const BentoGridItem = ({
       <div className={` h-full`}>
         <div
           className={cn(
-            "group-hover/bento:translate-x-2 justify-center transition duration-200 relative  h-[200px] flex flex-col px-4"
+            "group-hover/bento:translate-x-2 items-center justify-between transition duration-200 relative  h-[200px] flex flex-row px-4"
           )}
         >
           <div
@@ -68,7 +68,7 @@ export const BentoGridItem = ({
             {card.title}
           </div>
 
-          <div className="flex gap-1 lg:gap-4 w-fit absolute -right-3 lg:-right-2">
+          <div className="flex gap-1 lg:gap-4 w-fit  -right-3 lg:-right-2">
             <div className="flex flex-col gap-3  md:gap-3 lg:gap-6">
               {leftLists.map((item, i) => (
                 <span
@@ -79,40 +79,10 @@ export const BentoGridItem = ({
                   {item}
                 </span>
               ))}
-              {index === 1 && (
-                <span
-                  className="  lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                >
-                  Shadcn
-                </span>
-              )}
-              {index === 2 && (
-                <span
-                  className="  lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                >
-                  Axios
-                </span>
-              )}
+           
             </div>
             <div className="flex flex-col gap-3 mt-6  md:gap-3 lg:gap-6">
-              {index === 1 && (
-                <span
-                  className="  lg:px-3 py-2 px-3  text-xs lg:text-base opacity-50 
-                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                >
-                  Tailwind CSS
-                </span>
-              )}
-              {index === 2 && (
-                <span
-                  className="  lg:px-3 py-2 px-3  text-xs lg:text-base opacity-50 
-                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                >
-                  Prisma
-                </span>
-              )}
+             
               {rightLists.map((item, i) => (
                 <span
                   key={i}
