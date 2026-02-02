@@ -108,7 +108,7 @@ export const projects = [
   {
     id: 5,
     title: "CU Work Study Portal",
-    des: "Official work study management system serving 2,000+ students annually. Automated workflow from application to payment tracking. Reduced admin workload by 90%.",
+    des: "Covenant University Official work study management system serving 2,000+ students annually. Automated workflow from application to payment tracking. Reduced admin workload by 90%.",
     img: "/workstudy.png",
     link: "https://cuworkstudy.vercel.app/", // internal tool
     metrics: "2,000+ Students Annually",
