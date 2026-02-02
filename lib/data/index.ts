@@ -1,10 +1,12 @@
 export const navItems = [
+  { name: "GitHub", link: "https://github.com/TaiwoOnileowo" },
+  { name: "Linkedin", link: "https://www.linkedin.com/in/taiwo-onileowo" },
   { name: "Skills", link: "#stack" },
   { name: "Projects", link: "#projects" },
   // { name: "Experience", link: "#experience" },
   // { name: "Showcase", link: "#showcase" },
   // { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  // { name: "Contact", link: "#contact" },
 ];
 export const techStack = [
   {
