@@ -56,7 +56,7 @@ export const techStack = [
     stacks: [
       "Product strategy",
       "Growth optimization",
-      "Payment infrastructure",
+      "Conversion rate optimization",
       "Marketplace design",
       "Zero-to-one execution",
     ],
